@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pass.css" class="">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+   <!-- １↓JQ有効化相対PASS -->
+   <script src="./js/jquery-3.6.0.min.js"></script>
+   <!-- slickは拡張機能なのでjqueryより下に書く -->
+   <script type="text/javascript" src="slick/slick.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   <input   class="pass" type="button" value="パスワードを入れてください"onInput="checkForm(this)" onclick="gate();">
+   <ul class="slider">
+      <li><img src="./img/question_head_gakuzen_boy.png" alt=""loading="lazy"></li>
+      <li><img class="wakatta" data-lazy="./img/わかった.jpeg" alt=""></li>
+  </ul>
+  <script  type="text/javascript">
+    function gate() {
+       var UserInput = prompt("catと入力して下さい:","");
+        location.href = UserInput + ".html";
+    }
+    function checkForm($this)
+{
+    var str=$this.value;
+    while(str.match(/[^A-Z^a-z\d\-]/))
+    {
+        str=str.replace(/[^A-Z^a-z\d\-]/,"");
+    }
+    $this.value=str;
+}
+    $('.slider').slick({
+            lazyLoad:'ondemand',
+           dots:true,
+           infinite: true,
+           arrows:true,
+            slidesToShow: 1,
+           slidesToScroll:1
+       });
+
+ </script>
+</body>
+</html>

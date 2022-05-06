@@ -1,0 +1,31 @@
+.slider img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.pass{
+    position : fixed;
+    right : 40%;
+    margin-top: 0;
+    z-index: +99;
+}
+
+.slick-dots li{
+    width: 99px!important;
+    height:99px!important;
+    margin: 0!important;
+}
+.slick-dots li button{
+    width:100%!important;
+    height:100%!important;
+}
+
+.wakatta{
+    z-index: -1;
+}
+
+body{
+    background-image: url(../img/nekocatPAR586562417_TP_V4.jpg);
+}

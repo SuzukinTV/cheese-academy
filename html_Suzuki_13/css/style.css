@@ -1,0 +1,663 @@
+/* ここから下に記載していく */
+/* 使いそうなやつまとめ */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.aca_img{
+    margin-left: 30px;
+    width: auto;
+    height: 20%
+}
+
+.main_img{
+    width: 100%;
+}
+
+/* newsとaboutの黄文字 */
+h2,h4{
+    color: #ffd61a;
+}
+
+
+
+h2{
+    margin-top: 120px;
+}
+.h1da{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.h1de{
+    font-size: 30px;
+    margin-top: 50px
+}
+
+p{
+    line-height: 25px;
+}
+
+.about{
+    text-align: center;
+}
+
+/* サブタイトルサブタイトル18px上30下60 */
+.sub_title{
+    font-size: 18px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* tonのサブタイトル */
+.sub_title2{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#global_navi{
+    font-size: 24px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+}
+
+input{
+    border: darksl;
+}
+
+
+.about{
+    text-align: center;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{opacity:0.5;}
+nav{
+    margin-left: auto;
+}
+
+.main_visual{
+    color: aliceblue;
+    background-size: cover;
+}
+
+.main_v_c{
+    text-align: center;
+    padding-bottom: 100px;
+    justify-content:center;
+    
+}
+
+.h2_c1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main_v{
+    justify-content: center;
+}
+
+.h2_c2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.h2_c3{
+    margin-top: 40px;
+}
+
+a:hover{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.gray{
+    background-color: #fafafa;
+}
+
+footer{
+    background-color: dimgrey;
+    color: #fafafa;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header h1{
+    margin: 5px 0   10px;
+}
+
+.img4{
+    display: flex;
+    min-width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.img4 img{
+    width: 25%;
+}
+
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#entry dl dt,
+#entry dl dd{
+    padding: 10px;
+}
+
+#entry dl dt{
+    width: 13em;
+    float: left;
+    clear: both;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.main_v{
+    width: 100%;
+    height: 200px;
+}
+
+.main_v_c{
+    text-align: center;
+}
+
+.ton1{
+    display: flex;
+}
+
+.hon{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+.courseim{
+    width: 50%;
+}
+
+.courseim1{
+    width: 50%;
+}
+
+.corseim:hover{
+    background-image: url(../img/school_class_seifuku.png);
+}
+
+.ton2{
+    display: flex;
+}
+
+.hin{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    width: 50%;;
+}
+
+.ton3{
+    display: flex;
+}
+
+.hun{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+#news{
+    text-align: center;font-size: 14px;
+}
+
+.date{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+
+.access{
+    text-align: center;
+}
+#access{
+    padding-top: 60px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.con_fini{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.gakko{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#submit_button_cover{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.course{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.news1:hover{
+    opacity: 0.3;
+    color: #cacaca;
+}
+
+.news2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.news2:hover{
+    opacity: 0.5;
+    box-shadow: 5px 5px 1px red;
+}
+
+.news3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.news3:hover{
+    cursor: pointer;
+}
+
+#newsp{
+    text-align: center;
+}
+
+#news{
+    display: flex;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+select{
+    display: flex;
+    flex-direction: column;
+}
+
+.check{
+    display: block;
+}
+
+#news{
+    justify-content: center;
+}
+
+#submit_button{
+    background-color: #ffd61a;
+    border: 0;
+    color: #fafafa;
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#submit_button:hover{
+    background-color: #ffd61a;
+    background-image: url(../img/computer_mail.png);
+    border: 0;
+    color: #fafafa;
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.btn01{
+    background-color: #ffd61a;
+    border: 0;
+    color: #fafafa;
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 460px;
+}
+
+.btn01:hover{
+    background-color: aquamarine;
+    border: 0;
+    color: #fafafa;
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 460px;
+}
+
+
+.aca_img{
+    margin-left: 120px;
+}
+
+.check_lb{
+    display: block;
+}
+
+.aho{
+    margin-left: 198px;
+}
+
+/* タイトル24px 上60下30 */
+h1,h2,h3,h4,h5,h6{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+th{
+    border-right: 1px   solid   black;
+}
+
+.page_top_button{
+    text-align: center;
+    justify-content: center;
+}
+
+#header{
+    position: relative;/*h1の中央寄せ配置の起点とするためのrelative*/
+    height: 100vh;/*高さを全画面にあわせる*/
+} 
+
+#video-area{
+    position: fixed;
+    z-index: -1;/*最背面に設定*/
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+#video {
+    /*天地中央配置*/
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    min-height:100%;
+    min-width: 100%;
+}
+
+/*見出し設定*/
+h1{
+    /*要素の配置*/
+    position:absolute;
+    /*要素を天地中央寄せ*/
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /*見た目の調整*/
+    color:#fff;
+    text-shadow: 0 0 15px #666;
+}
+
+/* form部分 */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+body {
+  padding: 2rem;
+  background: #f9f9f9;
+  color: #2f2f2f;
+  font-family: 'Open Sans';
+}
+
+.wrap-video{
+    position:relative;
+  }
+  
+  .wrap-video video{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .wrap-video .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*荳贋ｸ句ｷｦ蜿ｳ荳ｭ螟ｮ蟇�○*/
+    text-align:center;
+  }
+  
+  .wrap-video .text p{
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+  }
+  $green: #84AD47;
+  $red: #AD4747;
+  $blue: #4784AD;
+  
+  form {
+    width: 50%;
+    margin: 10% auto;
+    min-width: 9rem;
+  }
+    
+  input, textarea {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background: darken(#f9f9f9, 10%);
+    color: darken(#f9f9f9, 50%);
+    
+    &[type=submit] {
+      background: $green;
+      color: #fff;
+      width: auto;
+      float: right;
+    }
+  
+    &::placeholder {
+      color: darken(#f9f9f9, 50%);
+    }
+  
+    &.error {
+      background: $red;
+      color: #fff;
+      &::placeholder {
+        color: darken($red, 60%);
+      }
+    }
+  }
+  textarea {
+    height: 10rem;
+  }
+  .captcha {
+    float:left;
+    input {
+      float: right;
+    }
+    input[name=question] {
+      width: 4rem;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      text-align: right;
+      padding-right: 0;
+    }
+    [name=captcha] {
+      width: 5rem;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      padding-left: 0.5rem;
+      &::placeholder {
+        text-align: center;
+      }
+    }
+  }
+
+  p span {
+    position: relative;
+    background: linear-gradient(transparent 40%, yellow 40%);
+  }
+  
+  .btn-tel{
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: #f75065;
+    padding: 5px 0;
+    margin: auto;
+    max-width: 250px;
+  }
+  
+  .btn-tel::after{
+    content: "";
+    background: url(../img/電話の受話器のアイコン素材\ その2.svg) no-repeat center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 15px;
+  }
+
+  .btn-fax{
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: #ffd61a;
+    padding: 5px 0;
+    margin: auto;
+    max-width: 250px;
+  }
+  
+  .btn-fax::after{
+    content: "";
+    background: url(../img/fax-svgrepo-com.svg) no-repeat center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 15px;
+  }
+
+ .glink{
+    position : fixed;
+    right : 30px;
+    bottom : 30px;
+  }
+
+  .btn-mail{
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: coral;
+    padding: 5px 0;
+    margin: auto;
+    max-width: 250px;
+  }
+  
+  .btn-mail::after{
+    content: "";
+    background: url(../img/fax-svgrepo-com.svg) no-repeat center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 15px;
+  }
